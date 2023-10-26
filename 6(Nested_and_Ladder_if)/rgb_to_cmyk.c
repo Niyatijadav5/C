@@ -43,6 +43,6 @@ int main()
 	}
 	printf("CMYK=%f,%f,%f,%f,",cyan,magenta,yellow,black);
 		
-	 }
+	 
  	return 0;
 }
