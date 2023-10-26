@@ -16,15 +16,15 @@ int main()
 	{
 		printf("Addition=%f",a+b);
 	}
-		if(choice=='-')
+	if(choice=='-')
 	{
 		printf("substraction=%f",a-b);
 	}
-		if(choice=='*')
+	if(choice=='*')
 	{
 		printf("multiplication=%f",a*b);
 	}
-		if(choice=='/')
+	if(choice=='/')
 	{
 		if(b==0)
 		{

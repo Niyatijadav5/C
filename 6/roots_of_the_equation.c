@@ -23,7 +23,7 @@ int main()
 	else if(d==0)
 	{
 		r1=-b/(2*a);
-		r1=-b/(2*a);
+		r2=-b/(2*a);
 		printf("Roots are equal=%f,%f",r1,r2);	
 	}
 	else

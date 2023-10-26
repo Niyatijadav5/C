@@ -19,7 +19,7 @@ int main()
 //	int temp=a;                             //swap using a temporary variable
 //	a=b;
 //	b=temp;
-//	printf("a=%d\nb=%d",a,b);*/
+//	printf("a=%d\nb=%d",a,b);
 	
 	return 0;
 }

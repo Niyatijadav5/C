@@ -12,7 +12,7 @@ int main()
 	
 	printf("Enter a number:\n");
 	scanf("%f",&c);
-	scanf("%f%f%f",&a,&b,&c);
+	
 	
 	avg=(a+b+c)/3;
 	
