@@ -5,7 +5,7 @@ int main()
 	int i,j;
 	int arr[20][2];
 	
-	printf("Enter roll no. and marks:");
+	printf("Enter roll no. and marks:\n");
 	
 	for(i=0;i<20;i++)
 	{
