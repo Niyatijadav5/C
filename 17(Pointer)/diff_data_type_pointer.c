@@ -12,7 +12,7 @@ int main()
 	printf("Enter float number:");
 	scanf("%f",&b);
 	printf("Enter character:");
-	scanf("%c",&c);
+	scanf(" %c",&c);
 	printf("Enter double:");
 	scanf("%lf",&d);
 	
@@ -22,9 +22,9 @@ int main()
 	dp=&d;
 	
 	printf("int value=%d\naddress=%d\n",*p,p);
-	printf("float value=%f\naddress=%f\n",*fp,fp);
-	printf("char value=%c\naddress=%c\n",*cp,cp);
-	printf("double value=%lf\naddress=%lf\n",*dp,dp);
+	printf("float value=%f\naddress=%d\n",*fp,fp);
+	printf("char value=%c\naddress=%d\n",*cp,cp);
+	printf("double value=%lf\naddress=%d\n",*dp,dp);
 	
 	return 0;
 }
