@@ -1,4 +1,4 @@
-//Print sum of 1 to n numbers.
+//Print 1 to n numbers.
 #include<stdio.h>
 int main()
 {
