@@ -13,16 +13,16 @@ int main()
     {
         remainder = n % 10;
         reversed = reversed * 10 + remainder;
-        n /= 10;
+        n=n/10;
     }
     
     if (original == reversed)
     {
-        printf("%d is palindrom", original);
+        printf("%d is palindrome", original);
     }
     else
     {
-        printf("%d is not palindrom", original);
+        printf("%d is not palindrome", original);
     }
     return 0;
 }

@@ -10,11 +10,12 @@ int main()
 	
 	while(bin!=0)
 	{
-	rem=n%2;	                     //bin=binary
-	bin=bin+rem*dec;	             //rem=reminder
-	dec=dec*10;                      //dec=decimal
-	bin=bin/2;
-	
+		
+	    rem=n%2;	                     //bin=binary
+	    bin=bin+rem*dec;	             //rem=reminder
+    	dec=dec*10;                      //dec=decimal
+    	bin=bin/2;
+    	
 	printf("%d",bin);
 	} 
 	return 0;

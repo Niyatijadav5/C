@@ -8,18 +8,22 @@ int main()
 	
 	printf("Enter a number:");
 	scanf("%d",&n);
+	
 	int a[n];
-	for(i=0;i<n;i++){
+	
+	for(i=0;i<n;i++)
+	{
 		scanf("%d",&a[i]);
 	}
-	arr(a,n);
 	
+	arr(a,n);	
 	return 0;
 }
 
 void arr(int a[],int n)
 {
 	int i;
+	
 	for(i=0;i<n;i++)
 	{
 		printf(" %d \n",a[i]);

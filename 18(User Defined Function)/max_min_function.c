@@ -18,7 +18,7 @@ int max(int a,int b)
 	printf("Minimum=%d",min);
 	
 	return 0;
-};
+}
 int main()
 {
 	int ans,a,b;

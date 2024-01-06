@@ -4,9 +4,11 @@ int main()
 {
     int x, y, pow = 1, i;
     
-    printf("Enter Number : ");
-    scanf("%d %d", &x, &y);
-    
+    printf("Enter Number: ");
+    scanf("%d",&x);
+    printf("Enter power: ");
+    scanf("%d",&y);
+
     for (i = 1; i <= y; i++)
     {
         pow *= x;

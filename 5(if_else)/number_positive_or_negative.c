@@ -3,8 +3,10 @@
 int main()
 {
 	int num;
+	
 	printf("Enter a number: ");
 	scanf("%d",&num);
+	
 	if(num>0)
 	{
 	 printf("%d is a postive number\n",num);
@@ -17,5 +19,6 @@ int main()
 	{
 		printf("%d is a zero",num);
 	}
+	
 	return 0;
 }

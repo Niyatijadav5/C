@@ -9,7 +9,7 @@ int main()
 	
 	while(i<=n)
 	{
-	sum=sum+i;
+    	sum=sum+i;
 		i++;
 	}
 	printf("%d\n",sum);

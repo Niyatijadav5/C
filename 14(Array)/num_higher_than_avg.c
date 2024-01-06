@@ -23,7 +23,7 @@ int main()
 	{
 		if(arr[i]>avg)
 		{
-		    printf("%d\n",arr[i]);
+		    printf("Numbers higher than average=%d\n",arr[i]);
 		}
 	}
     return 0;

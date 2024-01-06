@@ -3,6 +3,7 @@
 int main()
 {
 	char ch;
+	
 	printf("Enter a alphabet: ");
 	scanf("%c",&ch);
 	
@@ -15,5 +16,6 @@ int main()
 	{
 		printf("%c is a consonant",ch);
 	}
+	
 	return 0;
 }

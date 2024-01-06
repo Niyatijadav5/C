@@ -14,7 +14,7 @@ int main()
 	scanf("%d",&c);
 	
 	
-	largest = a > b ? (a > c ? a : c) : (b > c ? b : c);
+	largest = a>b ? (a>c ? a : c):(b>c ? b : c);
 	
 	printf("%d is largest number", largest);
 	
